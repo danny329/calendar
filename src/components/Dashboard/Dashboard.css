@@ -1,0 +1,34 @@
+.itemwrapper{
+    display: flex;
+    background: lightblue;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.item {
+    display: flex;
+    align-items: baseline;
+    border-radius: 5px;
+    margin: auto 5px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.title{
+    font-weight: bold;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+}
+.value{
+    margin: 0px;
+}
